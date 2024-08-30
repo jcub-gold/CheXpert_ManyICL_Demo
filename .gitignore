@@ -165,6 +165,7 @@ ManyICL/dataset/CheXpert/test_1.csv
 ManyICL/dataset/CheXpert/demo.csv
 ManyICL/dataset/CheXpert/chexpert_demo_df_labels.csv
 ManyICL/test.py
+ManyICL/prompt_copy.py
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can

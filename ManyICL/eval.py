@@ -138,6 +138,11 @@ def cal_metrics(
         elif row['race'] in white_labels:
             white_rows.append(i.Index)
 
+    if (len(white_rows) + len(black_rows) != len(test_df)):
+        print("----------")
+        print(f"Only counted {len(white_rows) + len(black_rows)} race labels out of {len(test_df)}")
+        print("----------")
+
     if black_rows:
         black_test = test_df.loc[black_rows].copy()
         black_pred = pred_df.loc[black_rows].copy()
@@ -156,90 +161,66 @@ def cal_metrics(
 
 
 if __name__ == "__main__":
-    # # Initialize the parser
-    # parser = argparse.ArgumentParser(description="Experiment script.")
-    # # Adding the arguments
-    # parser.add_argument(
-    #     "--dataset",
-    #     type=str,
-    #     required=True,
-    #     default="UCMerced",
-    #     help="The dataset to use",
-    # )
-    # parser.add_argument(
-    #     "--model",
-    #     type=str,
-    #     required=False,
-    #     default="Gemini1.5",
-    #     help="The model to use",
-    # )
-    # parser.add_argument(
-    #     "--location",
-    #     type=str,
-    #     required=False,
-    #     default="us-central1",
-    #     help="The location for the experiment",
-    # )
-    # parser.add_argument(
-    #     "--num_shot_per_class",
-    #     type=int,
-    #     required=True,
-    #     help="The number of shots per class",
-    # )
-    # parser.add_argument(
-    #     "--num_qns_per_round",
-    #     type=int,
-    #     required=False,
-    #     default=1,
-    #     help="The number of questions asked each time",
-    # )
+    # Initialize the parser
+    parser = argparse.ArgumentParser(description="Experiment script.")
+    # Adding the arguments
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        required=True,
+        default="UCMerced",
+        help="The dataset to use",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        required=False,
+        default="Gemini1.5",
+        help="The model to use",
+    )
+    parser.add_argument(
+        "--location",
+        type=str,
+        required=False,
+        default="us-central1",
+        help="The location for the experiment",
+    )
+    parser.add_argument(
+        "--num_shot_per_class",
+        type=int,
+        required=True,
+        help="The number of shots per class",
+    )
+    parser.add_argument(
+        "--num_qns_per_round",
+        type=int,
+        required=False,
+        default=1,
+        help="The number of questions asked each time",
+    )
 
-    # # Parsing the arguments
-    # args = parser.parse_args()
+    # Parsing the arguments
+    args = parser.parse_args()
 
-    # # Using the arguments
-    # dataset_name = args.dataset
-    # model = args.model
-    # location = args.location
-    # num_shot_per_class = args.num_shot_per_class
-    # num_qns_per_round = args.num_qns_per_round
-    dataset_name = "CheXpert"
-    model = "gpt-4o"
-    location = "us-central1"
-    num_shot_per_class = 0
-    num_qns_per_round = 1
+    # Using the arguments
+    dataset_name = args.dataset
+    model = args.model
+    location = args.location
+    num_shot_per_class = args.num_shot_per_class
+    num_qns_per_round = args.num_qns_per_round
+    # dataset_name = "CheXpert"
+    # model = "gpt-4o"
+    # location = "us-central1"
+    # num_shot_per_class = 0
+    # num_qns_per_round = 1
 
     # Read the two dataframes for the dataset
     demo_df = pd.read_csv(f"ManyICL/dataset/{dataset_name}/demo.csv", index_col=0)
     test_df = pd.read_csv(f"ManyICL/dataset/{dataset_name}/test.csv", index_col=0)
 
-    classes = list(demo_df.columns)  # classes for classification
+    classes = list(test_df.columns)  # classes for classification
     class_desp = classes  # The actual list of options given to the model. If the column names are informative enough, we can just use them.
     class_to_idx = {class_name: idx for idx, class_name in enumerate(classes)}
 
     EXP_NAME = f"{dataset_name}_{num_shot_per_class*len(classes)}shot_{model}_{num_qns_per_round}"
     cal_metrics(EXP_NAME, test_df, classes, class_desp)
-
-
-
-
-
-# # Manual F1 prediction
-# y_true = test_df[class_name].values
-# y_pred = pred_df[class_name].values
-
-# total_pos_pred = np.sum(y_pred)
-# total_pos_actu = np.sum(y_true)
-# tp = 0
-# for i in range(len(y_true)):
-#     if (y_pred[i] == 1 and y_true[i] == 1):
-#         tp += 1
-
-# if (tp == 0):
-#     f1 = 0
-# else:
-#     precision = tp / total_pos_pred
-#     recall = tp / total_pos_actu
-#     f1 = (2 * precision * recall) / (precision + recall)
-
-# print(f"Manual F1 calculation: {f1}")

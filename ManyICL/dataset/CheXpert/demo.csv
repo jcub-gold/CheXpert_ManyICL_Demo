@@ -1,0 +1,11 @@
+,No_Finding,Enlarged_Cardiomediastinum,Cardiomegaly,Lung_Opacity,Lung_Lesion,Edema,Consolidation,Pneumonia,Atelectasis,Pneumothorax,Pleural_Effusion,Pleural_Other,Fracture,Support_Devices
+CheXpert-v1.0 batch 2 (train 1)/patient13692/study1/view2_lateral.jpg,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-1.0,0.0
+CheXpert-v1.0 batch 4 (train 3)/patient46362/study2/view1_frontal.jpg,0.0,1.0,0.0,0.0,0.0,0.0,1.0,-1.0,0.0,0.0,0.0,0.0,0.0,0.0
+CheXpert-v1.0 batch 2 (train 1)/patient08045/study1/view2_lateral.jpg,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CheXpert-v1.0 batch 3 (train 2)/patient28423/study6/view2_lateral.jpg,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0
+CheXpert-v1.0 batch 3 (train 2)/patient21679/study1/view2_frontal.jpg,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,-1.0
+CheXpert-v1.0 batch 2 (train 1)/patient19234/study2/view1_frontal.jpg,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+CheXpert-v1.0 batch 3 (train 2)/patient40103/study5/view1_frontal.jpg,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+CheXpert-v1.0 batch 2 (train 1)/patient18408/study1/view1_frontal.jpg,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+CheXpert-v1.0 batch 2 (train 1)/patient00871/study1/view1_frontal.jpg,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0
+CheXpert-v1.0 batch 2 (train 1)/patient14886/study1/view1_frontal.jpg,0.0,1.0,0.0,1.0,0.0,0.0,0.0,-1.0,1.0,0.0,0.0,0.0,0.0,1.0

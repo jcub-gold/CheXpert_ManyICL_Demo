@@ -5,7 +5,7 @@ print(os.getcwd())
 dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load the CSV into a DataFrame
-df = pd.read_csv(os.path.join(dir, 'chexpert_demo_df_labels.csv'))
+df = pd.read_csv(os.path.join(dir, 'chexpert_test_df_labels.csv'))
 
 # Update the image path to use 'updated_path'
 df['Path'] = df['updated_path']
@@ -26,7 +26,7 @@ df = df[output_columns]
 df.columns = df.columns.str.replace(' ', '_')
 
 
-out = os.path.join(dir, 'demo.csv')
+out = os.path.join(dir, 'test.csv')
 # Save the transformed DataFrame to a new CSV file
 # Write the DataFrame to CSV without a header for the Path column only
 with open(out, 'w', newline='') as file:

@@ -1,0 +1,1958 @@
+,raw_response,parsed_answer
+CheXpert-v1.0 batch 3 (train 2)/patient21628/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient22729/study12/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient60222/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient43881/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 2 (train 1)/patient13505/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient54735/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient35277/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient42463/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01155/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient18100/study9/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient15649/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient45680/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity']"
+CheXpert-v1.0 batch 2 (train 1)/patient10899/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient16994/study9/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient06604/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient15178/study5/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient13804/study12/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient13804/study16/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient30984/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient09135/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient30569/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient11302/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient39374/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient02557/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient37007/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient06464/study22/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient02447/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient19062/study19/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient26014/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient24158/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient47660/study1/view2_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01696/study8/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient33303/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity']"
+CheXpert-v1.0 batch 2 (train 1)/patient19217/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient30794/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient54565/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient26680/study10/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01818/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient05843/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient46922/study9/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient31317/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27092/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient60388/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient21195/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 3 (train 2)/patient35359/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient40161/study27/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient19062/study14/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.99
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient17301/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient04473/study11/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient26680/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20252/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient02756/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient13001/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient35414/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient56958/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10880/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient09052/study26/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient02946/study6/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Lesion']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Lung_Lesion']
+CheXpert-v1.0 batch 4 (train 3)/patient43426/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Fracture']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Fracture']"
+CheXpert-v1.0 batch 2 (train 1)/patient06366/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient12203/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient42592/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient26963/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient37983/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient06219/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient08923/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient15890/study5/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient27761/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient23858/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient10096/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient20770/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient02756/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient57450/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10760/study5/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10096/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient19238/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient36720/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient07459/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient15558/study20/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient39621/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient22554/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient18357/study16/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03922/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.99
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01155/study9/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient08469/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient23729/study14/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01423/study14/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Lung_Opacity', 'Edema', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Lung_Opacity', 'Edema', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient41707/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient19608/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient63278/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient06020/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient24671/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10842/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient55957/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03922/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.99
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient50699/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient16776/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient24637/study8/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient04473/study8/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient23729/study8/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient11819/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient13804/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient41131/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient02309/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 2 (train 1)/patient01141/study19/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient09052/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient12015/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03908/study5/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient21789/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10029/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient11819/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient02039/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient55524/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient22871/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient05648/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03922/study12/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient04943/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient50694/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 2 (train 1)/patient10775/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient22504/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient13994/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient28702/study9/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient35348/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient10682/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient04721/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient28612/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient27777/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Lung_Lesion']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Lung_Lesion']"
+CheXpert-v1.0 batch 2 (train 1)/patient18100/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Enlarged_Cardiomediastinum', 'Cardiomegaly']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Enlarged_Cardiomediastinum', 'Cardiomegaly']"
+CheXpert-v1.0 batch 2 (train 1)/patient08923/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient24292/study7/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient31839/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient00210/study15/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient09150/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient16558/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient29479/study1/view3_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient02440/study1/view3_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient19260/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient62226/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient12652/study4/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient55594/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient17175/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient55809/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient25411/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 3 (train 2)/patient28212/study7/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 3 (train 2)/patient34723/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient43164/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient08469/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient39863/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient48707/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient07662/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient18171/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 3 (train 2)/patient32146/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient31176/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity', 'Pleural_Effusion']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 2 (train 1)/patient11721/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient31697/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient31041/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 2 (train 1)/patient20130/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient06316/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient20200/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient28041/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient11325/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient23683/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient58123/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient34732/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient17051/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01696/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient32717/study4/view2_lateral.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient10775/study8/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Fracture']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Fracture']"
+CheXpert-v1.0 batch 2 (train 1)/patient09775/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient35704/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient07249/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient07992/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient27714/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient34690/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient05614/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient51692/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient02039/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient50354/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient14473/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient24993/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient41874/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient52611/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient37500/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient00750/study12/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient35766/study5/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient27211/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient31182/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient19039/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient05488/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03630/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient28212/study8/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient32015/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient10910/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 2 (train 1)/patient16954/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient63489/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient32352/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.99]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient24544/study4/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient14814/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient43475/study3/view2_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient43475/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient23286/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient06359/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient42335/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient25391/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient24843/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient11037/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20647/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Lung_Lesion']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Lung_Lesion']"
+CheXpert-v1.0 batch 4 (train 3)/patient56021/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient22535/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27288/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient19227/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient14891/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient25459/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient34112/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient02309/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient15890/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient18898/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient30265/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 2 (train 1)/patient05700/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient35767/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient48608/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity']"
+CheXpert-v1.0 batch 4 (train 3)/patient63402/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient41545/study18/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity']"
+CheXpert-v1.0 batch 3 (train 2)/patient38904/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient19062/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient39997/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient38169/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient36240/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.99]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient14790/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20167/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient21362/study9/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01423/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient26234/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient11786/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient28806/study7/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient34055/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient04721/study6/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient18357/study22/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient49869/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20961/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20028/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient28992/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.85]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 4 (train 3)/patient50002/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient28926/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient13193/study8/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient03975/study2/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient17120/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient43031/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient56695/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient15404/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient55239/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient33488/study5/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient02070/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient26690/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient49524/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient08953/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient15667/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient35669/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Lung_Opacity']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Lung_Opacity']"
+CheXpert-v1.0 batch 2 (train 1)/patient03394/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03122/study48/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 2 (train 1)/patient19196/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient22180/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient15891/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient16798/study12/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient14693/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient20384/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 2 (train 1)/patient04326/study6/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient49938/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20400/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient44095/study1/view3_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient25286/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient38003/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient02570/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient03174/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient48621/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Pleural_Effusion']
+Confidence Score 1: [0.85]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 3 (train 2)/patient28760/study8/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient29041/study1/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient27072/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient27521/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient22086/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient21392/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient36122/study40/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient43317/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient51464/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient13426/study10/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient32884/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient37611/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient38027/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03447/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient19433/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient58742/study1/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient20318/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient33179/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient38997/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient05972/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 4 (train 3)/patient56252/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient23868/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient37040/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient26931/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient23100/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient14735/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 2 (train 1)/patient20726/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient44906/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27298/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27383/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient52011/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient17473/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient06686/study8/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient02485/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient16023/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient02302/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient00910/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient31025/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient03777/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient28693/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient05215/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient12293/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27438/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient13080/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient34322/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient40894/study2/view1_frontal.jpg,,"['Support_Devices', 'Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity']"
+CheXpert-v1.0 batch 2 (train 1)/patient06829/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient01919/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient12229/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient32388/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient36128/study12/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient49476/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient25829/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Fracture', 'Cardiomegaly']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Fracture', 'Cardiomegaly']"
+CheXpert-v1.0 batch 2 (train 1)/patient10446/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient23849/study14/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient34298/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient12847/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient12492/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient23824/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27187/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient21647/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient54569/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient51907/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient36413/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient44390/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient28666/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient39745/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient01071/study30/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient35300/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient34809/study13/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient28661/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient56655/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 2 (train 1)/patient04143/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient16875/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient57626/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient43562/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient29471/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient46935/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27070/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient25676/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient51702/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient02899/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient30934/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient07903/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient20538/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient42297/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient29548/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient18170/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient45219/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient30812/study34/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient58719/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity']"
+CheXpert-v1.0 batch 3 (train 2)/patient40837/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient37760/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient07740/study7/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Fracture']
+CheXpert-v1.0 batch 2 (train 1)/patient07772/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient20525/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient02315/study8/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient45589/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient31167/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient32102/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient04442/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient30637/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient05165/study13/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient50261/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient35705/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient41917/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient29601/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient35168/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient05662/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient42708/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity', 'Enlarged_Cardiomediastinum']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity', 'Enlarged_Cardiomediastinum']"
+CheXpert-v1.0 batch 3 (train 2)/patient27701/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient43625/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient26531/study11/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient59653/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient47092/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient05642/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient02710/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient41600/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient09317/study14/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient30629/study13/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient10970/study27/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient17001/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient40437/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Fracture']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Fracture']"
+CheXpert-v1.0 batch 2 (train 1)/patient18520/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient52081/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient43698/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient44482/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient25879/study8/view2_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient18479/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 2 (train 1)/patient11575/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient39008/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Pleural_Effusion', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient30812/study27/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient47468/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient40440/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Enlarged_Cardiomediastinum', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Enlarged_Cardiomediastinum', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 3 (train 2)/patient22015/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Fracture']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Fracture']"
+CheXpert-v1.0 batch 3 (train 2)/patient41760/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient09531/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient04953/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient38517/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient39134/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient43000/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient54574/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20479/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient27536/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient56584/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Lung_Opacity', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 3 (train 2)/patient39280/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient01293/study1/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient26030/study9/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient00669/study10/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient38086/study12/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient53307/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient26085/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient08260/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient12050/study9/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Enlarged_Cardiomediastinum', 'Lung_Opacity']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Enlarged_Cardiomediastinum', 'Lung_Opacity']"
+CheXpert-v1.0 batch 2 (train 1)/patient10777/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient06437/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient23987/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient16023/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient17993/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10882/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient57768/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient12440/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Cardiomegaly', 'Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient01790/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient49285/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient30821/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Atelectasis']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Atelectasis']"
+CheXpert-v1.0 batch 2 (train 1)/patient19605/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient08121/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient24203/study2/view3_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient44038/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient20176/study20/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient35520/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient07558/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient08459/study5/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient23044/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient14489/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient13235/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient08276/study4/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10211/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient28890/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Lung_Lesion']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Lung_Lesion']"
+CheXpert-v1.0 batch 2 (train 1)/patient14489/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.8]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient18159/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient30921/study3/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient22094/study1/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient09531/study8/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient33204/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.85
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient23722/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient10290/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient33421/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 2 (train 1)/patient13394/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices', 'Pleural_Effusion']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices', 'Pleural_Effusion']"
+CheXpert-v1.0 batch 2 (train 1)/patient15459/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient05075/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Fracture', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Fracture', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient33877/study3/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient45114/study7/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient64023/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient58942/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 4 (train 3)/patient57191/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Pneumothorax']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Pneumothorax']"
+CheXpert-v1.0 batch 2 (train 1)/patient19618/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient57270/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly']"
+CheXpert-v1.0 batch 4 (train 3)/patient50167/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Pleural_Effusion']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Pleural_Effusion']
+CheXpert-v1.0 batch 3 (train 2)/patient25703/study1/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient20396/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient52048/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient32226/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 2 (train 1)/patient18461/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.8
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient48181/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient24959/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient24304/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient09506/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient40566/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient12679/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity']"
+CheXpert-v1.0 batch 3 (train 2)/patient34343/study6/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient45530/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient11260/study5/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient43666/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient01071/study6/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices', 'Lung_Opacity']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Support_Devices', 'Lung_Opacity']"
+CheXpert-v1.0 batch 2 (train 1)/patient04397/study2/view1_frontal.jpg,,"['Enlarged_Cardiomediastinum', 'Cardiomegaly', 'Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient25582/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding', 'Support_Devices']
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---","['No_Finding', 'Support_Devices']"
+CheXpert-v1.0 batch 4 (train 3)/patient49006/study2/view2_lateral.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 2 (train 1)/patient07605/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient34031/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Lung_Opacity', 'Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---","['Lung_Opacity', 'Support_Devices']"
+CheXpert-v1.0 batch 3 (train 2)/patient39846/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.95]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 3 (train 2)/patient33748/study1/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['No_Finding']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['No_Finding']
+CheXpert-v1.0 batch 3 (train 2)/patient30989/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: [0.9]
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']
+CheXpert-v1.0 batch 4 (train 3)/patient47483/study2/view1_frontal.jpg,"--BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Support_Devices']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Support_Devices']

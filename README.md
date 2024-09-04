@@ -64,7 +64,7 @@ Modify the prompt in `prompt.py` if needed.
 # Run the experiment
 Run the experiment script, and it'll save all the raw responses in `UCMerced_21shot_Gemini1.5_7.pkl`.
 ```bash
-python3 ManyICL/run.py --dataset=UCMerced --num_shot_per_class=1 --num_qns_per_round=7
+python ManyICL/run.py --dataset=CheXpert --num_shot_per_class=0 --num_qns_per_round=1 --model=gpt-4o
 ```
 
 # Evaluate the model responses

@@ -5,6 +5,7 @@ import ast
 import numpy as np
 from sklearn.metrics import f1_score
 import os
+import re
 
 PATH_TO_OG_CHEXPERT_CSV = os.path.join(os.getcwd(), 'ManyICL', 'dataset', 'CheXpert', 'chexpert_test_df_labels.csv')
 
@@ -50,7 +51,7 @@ def accuracy_and_F1(test_df, pred_df, bootstrap):
     print(f"Averaged Accuracy: {np.mean(all_ori_accs):.2f} +- {np.mean(all_std_devs):.2f}")
     print(f"Macro Averaged F1: {np.mean(all_f1s):.2f} +- {np.mean(all_f1_std_devs):.2f}")
 
-def convert_pkl(raw_pickle, answer_prefix="Answer Choice "):
+def convert_pkl(raw_pickle, sanity_df, answer_prefix="Answer Choice "):
     """
     Convert raw pickle files saved in run.py to answers to each individual question
 
@@ -58,6 +59,13 @@ def convert_pkl(raw_pickle, answer_prefix="Answer Choice "):
     answer_prefix [str]: Prefix for answer matching, it should match the template in prompt.py
     """
     results = {}
+    def extract_response(text, pattern):
+        match = re.search(pattern, text, re.DOTALL)
+        if match == None:
+            match == text
+        else:
+            match = match.group()
+        return match
 
     def extract_ans(ans_str, search_substring):
         # Split the string into lines
@@ -74,9 +82,13 @@ def convert_pkl(raw_pickle, answer_prefix="Answer Choice "):
         if k.startswith("["):  # Skip token_usage
             qns_idx = ast.literal_eval(k)
             for idx, qn_idx in enumerate(qns_idx):
-                results[qn_idx] = extract_ans(
+                parsed_answer = extract_ans(
                     v, f"{answer_prefix}{idx+1}:"
                 )  # We start with question 1
+                results[qn_idx] = parsed_answer
+                pattern = fr'--BEGIN FORMAT TEMPLATE FOR QUESTION {idx+1}---(.*?)---END FORMAT TEMPLATE FOR QUESTION {idx+1}---'
+                sanity_df.loc[qn_idx, 'raw_response'] = extract_response(v, pattern)
+                sanity_df.loc[qn_idx, 'parsed_answer'] = parsed_answer
     return results
 
 
@@ -93,13 +105,16 @@ def cal_metrics(
     show_error [bool]: whether parsing errors will be printed
     bootstrap [int]: number of replicates for bootstrapping standard deviation
     """
+    # Create a new DataFrame with only empty'response' and 'parsed_answer' columns
+    sanity_df = pd.DataFrame(index=test_df.index, columns=['raw_response', 'parsed_answer'])
 
     with open(f"{EXP_NAME}.pkl", "rb") as f:
         results = pickle.load(f)
     results = convert_pkl(
-        results
+        results, sanity_df
     )  # Convert the batched results into individual answers
-    # print(test_df.columns)
+    sanity_df.to_csv(f'{EXP_NAME}_sanity.csv')
+
     # initialize predictive dafaframe with zeros
     pred_df = test_df.copy()
     pred_df[classes] = 0
@@ -119,6 +134,8 @@ def cal_metrics(
             if class_name.lower() in pred_text.lower():
                 pred_df.loc[i.Index, class_name] = 1
 
+    pred_df.to_csv(f'{EXP_NAME}_prediction.csv')
+
     print("Accuracy And F1 For Total Dataset:")
     accuracy_and_F1(test_df, pred_df, bootstrap)
     print("----------\n")
@@ -135,7 +152,7 @@ def cal_metrics(
         row = df[df['updated_path'].str.endswith(i.Index)]
         if row['race'].values[0] in black_labels:
             black_rows.append(i.Index)
-        elif row['race'] in white_labels:
+        elif row['race'].values[0] in white_labels:
             white_rows.append(i.Index)
 
     if (len(white_rows) + len(black_rows) != len(test_df)):
@@ -156,63 +173,64 @@ def cal_metrics(
         print("----------\n")
     if white_rows:    
         print("Accuracy And F1 For Given White Race Condition:")
-        accuracy_and_F1(black_test, black_pred, bootstrap)
+        accuracy_and_F1(white_test, white_pred, bootstrap)
         print("----------\n")
 
 
 if __name__ == "__main__":
-    # Initialize the parser
-    parser = argparse.ArgumentParser(description="Experiment script.")
-    # Adding the arguments
-    parser.add_argument(
-        "--dataset",
-        type=str,
-        required=True,
-        default="UCMerced",
-        help="The dataset to use",
-    )
-    parser.add_argument(
-        "--model",
-        type=str,
-        required=False,
-        default="Gemini1.5",
-        help="The model to use",
-    )
-    parser.add_argument(
-        "--location",
-        type=str,
-        required=False,
-        default="us-central1",
-        help="The location for the experiment",
-    )
-    parser.add_argument(
-        "--num_shot_per_class",
-        type=int,
-        required=True,
-        help="The number of shots per class",
-    )
-    parser.add_argument(
-        "--num_qns_per_round",
-        type=int,
-        required=False,
-        default=1,
-        help="The number of questions asked each time",
-    )
+    # # Initialize the parser
+    # parser = argparse.ArgumentParser(description="Experiment script.")
+    # # Adding the arguments
+    # parser.add_argument(
+    #     "--dataset",
+    #     type=str,
+    #     required=True,
+    #     default="UCMerced",
+    #     help="The dataset to use",
+    # )
+    # parser.add_argument(
+    #     "--model",
+    #     type=str,
+    #     required=False,
+    #     default="Gemini1.5",
+    #     help="The model to use",
+    # )
+    # parser.add_argument(
+    #     "--location",
+    #     type=str,
+    #     required=False,
+    #     default="us-central1",
+    #     help="The location for the experiment",
+    # )
+    # parser.add_argument(
+    #     "--num_shot_per_class",
+    #     type=int,
+    #     required=True,
+    #     help="The number of shots per class",
+    # )
+    # parser.add_argument(
+    #     "--num_qns_per_round",
+    #     type=int,
+    #     required=False,
+    #     default=1,
+    #     help="The number of questions asked each time",
+    # )
 
-    # Parsing the arguments
-    args = parser.parse_args()
+    # # Parsing the arguments
+    # args = parser.parse_args()
 
-    # Using the arguments
-    dataset_name = args.dataset
-    model = args.model
-    location = args.location
-    num_shot_per_class = args.num_shot_per_class
-    num_qns_per_round = args.num_qns_per_round
-    # dataset_name = "CheXpert"
-    # model = "gpt-4o"
-    # location = "us-central1"
-    # num_shot_per_class = 0
-    # num_qns_per_round = 1
+    # # Using the arguments
+    # dataset_name = args.dataset
+    # model = args.model
+    # location = args.location
+    # num_shot_per_class = args.num_shot_per_class
+    # num_qns_per_round = args.num_qns_per_round
+    
+    dataset_name = "CheXpert"
+    model = "gpt-4o"
+    location = "us-central1"
+    num_shot_per_class = 0
+    num_qns_per_round = 1
 
     # Read the two dataframes for the dataset
     demo_df = pd.read_csv(f"ManyICL/dataset/{dataset_name}/demo.csv", index_col=0)

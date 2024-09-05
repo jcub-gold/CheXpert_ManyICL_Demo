@@ -157,8 +157,7 @@ ManyICL/dataset/CheXpert/count_positives.py
 ManyICL/eval_copy.py
 ManyICL/eval_test.py
 UCMerced_0shot_Gemini1.5_1.pkl
-CheXpert_0shot_Gemini1.5_1.pkl
-CheXpert_0shot_gpt-4o_1.pkl
+UCMerced_21shot_Gemini1.5_7.pkl
 ManyICL/dataset/CheXpert/images
 ManyICL/test.py
 ManyICL/dataset/CheXpert/test_1.csv

@@ -70,7 +70,7 @@ python ManyICL/run.py --dataset=CheXpert --num_shot_per_class=0 --num_qns_per_ro
 # Evaluate the model responses
 Run the evaluation script, and it'll read from the raw responses and print out the accuracy score.
 ```bash
-python3 ManyICL/eval.py --dataset=UCMerced --num_shot_per_class=1 --num_qns_per_round=7
+python ManyICL/eval.py --dataset=CheXpert --num_shot_per_class=0 --num_qns_per_round=1 --model=gpt-4o
 ```
 
 # Citation

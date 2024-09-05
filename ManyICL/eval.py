@@ -178,59 +178,59 @@ def cal_metrics(
 
 
 if __name__ == "__main__":
-    # # Initialize the parser
-    # parser = argparse.ArgumentParser(description="Experiment script.")
-    # # Adding the arguments
-    # parser.add_argument(
-    #     "--dataset",
-    #     type=str,
-    #     required=True,
-    #     default="UCMerced",
-    #     help="The dataset to use",
-    # )
-    # parser.add_argument(
-    #     "--model",
-    #     type=str,
-    #     required=False,
-    #     default="Gemini1.5",
-    #     help="The model to use",
-    # )
-    # parser.add_argument(
-    #     "--location",
-    #     type=str,
-    #     required=False,
-    #     default="us-central1",
-    #     help="The location for the experiment",
-    # )
-    # parser.add_argument(
-    #     "--num_shot_per_class",
-    #     type=int,
-    #     required=True,
-    #     help="The number of shots per class",
-    # )
-    # parser.add_argument(
-    #     "--num_qns_per_round",
-    #     type=int,
-    #     required=False,
-    #     default=1,
-    #     help="The number of questions asked each time",
-    # )
+    # Initialize the parser
+    parser = argparse.ArgumentParser(description="Experiment script.")
+    # Adding the arguments
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        required=True,
+        default="UCMerced",
+        help="The dataset to use",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        required=False,
+        default="Gemini1.5",
+        help="The model to use",
+    )
+    parser.add_argument(
+        "--location",
+        type=str,
+        required=False,
+        default="us-central1",
+        help="The location for the experiment",
+    )
+    parser.add_argument(
+        "--num_shot_per_class",
+        type=int,
+        required=True,
+        help="The number of shots per class",
+    )
+    parser.add_argument(
+        "--num_qns_per_round",
+        type=int,
+        required=False,
+        default=1,
+        help="The number of questions asked each time",
+    )
 
-    # # Parsing the arguments
-    # args = parser.parse_args()
+    # Parsing the arguments
+    args = parser.parse_args()
 
-    # # Using the arguments
-    # dataset_name = args.dataset
-    # model = args.model
-    # location = args.location
-    # num_shot_per_class = args.num_shot_per_class
-    # num_qns_per_round = args.num_qns_per_round
+    # Using the arguments
+    dataset_name = args.dataset
+    model = args.model
+    location = args.location
+    num_shot_per_class = args.num_shot_per_class
+    num_qns_per_round = args.num_qns_per_round
     
-    dataset_name = "CheXpert"
-    model = "gpt-4o"
-    location = "us-central1"
-    num_shot_per_class = 0
-    num_qns_per_round = 1
+    # dataset_name = "CheXpert"
+    # model = "gpt-4o"
+    # location = "us-central1"
+    # num_shot_per_class = 0
+    # num_qns_per_round = 1
 
     # Read the two dataframes for the dataset
     demo_df = pd.read_csv(f"ManyICL/dataset/{dataset_name}/demo.csv", index_col=0)

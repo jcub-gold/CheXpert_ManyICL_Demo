@@ -28,7 +28,7 @@ import vertexai.preview.generative_models as generative_models
 class GPT4VAPI:
     def __init__(
         self,
-        model="gpt-4o-2024-05-13",
+        model="gpt-4o-2024-09-4",
         img_token="<<IMG>>",
         seed=66,
         temperature=0,
@@ -132,7 +132,7 @@ class GPT4VAPI:
 class GeminiAPI:
     def __init__(
         self,
-        model="gemini-1.5-pro-preview-0409",
+        model="gemini-1.5-pro-001",
         img_token="<<IMG>>",
         RPM=5,
         temperature=0,

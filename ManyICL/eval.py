@@ -59,13 +59,6 @@ def convert_pkl(raw_pickle, sanity_df, answer_prefix="Answer Choice "):
     answer_prefix [str]: Prefix for answer matching, it should match the template in prompt.py
     """
     results = {}
-    def extract_response(text, pattern):
-        match = re.search(pattern, text, re.DOTALL)
-        if match == None:
-            match == text
-        else:
-            match = match.group()
-        return match
 
     def extract_ans(ans_str, search_substring):
         # Split the string into lines
@@ -87,7 +80,7 @@ def convert_pkl(raw_pickle, sanity_df, answer_prefix="Answer Choice "):
                 )  # We start with question 1
                 results[qn_idx] = parsed_answer
                 pattern = fr'--BEGIN FORMAT TEMPLATE FOR QUESTION {idx+1}---(.*?)---END FORMAT TEMPLATE FOR QUESTION {idx+1}---'
-                sanity_df.loc[qn_idx, 'raw_response'] = extract_response(v, pattern)
+                sanity_df.loc[qn_idx, 'raw_response'] = v
                 sanity_df.loc[qn_idx, 'parsed_answer'] = parsed_answer
     return results
 
@@ -155,6 +148,9 @@ def cal_metrics(
         elif row['race'].values[0] in white_labels:
             white_rows.append(i.Index)
 
+    # print(len(black_rows))
+    # print(len(white_rows))
+    # return
     if (len(white_rows) + len(black_rows) != len(test_df)):
         print("----------")
         print(f"Only counted {len(white_rows) + len(black_rows)} race labels out of {len(test_df)}")

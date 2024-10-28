@@ -164,7 +164,8 @@ ManyICL/dataset/CheXpert/chexpert_binaryPNA_demo_df_labels.csv
 ManyICL/dataset/CheXpert/chexpert_binaryPNA_test_df_labels.csv
 ManyICL/dataset/CheXpert/demo_multi_class.csv
 ManyICL/dataset/CheXpert/test_multi_class.csv
-ManyICL/dataset/CheXpert/test_1.csv
+ManyICL/dataset/CheXpert/test_copy.csv
+ManyICL/dataset/CheXpert/demo_copy.csv
 ManyICL/dataset/CheXpert/chexpert_demo_df_labels.csv
 ManyICL/dataset/CheXpert/chexpert_test_df_labels.csv
 ManyICL/prompt_copy.py

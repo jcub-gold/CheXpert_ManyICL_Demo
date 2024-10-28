@@ -7,7 +7,7 @@ from sklearn.metrics import f1_score
 import os
 import re
 
-PATH_TO_OG_CHEXPERT_CSV = os.path.join(os.getcwd(), 'ManyICL', 'dataset', 'CheXpert', 'chexpert_test_df_labels.csv')
+PATH_TO_OG_CHEXPERT_CSV = os.path.join(os.getcwd(), 'ManyICL', 'dataset', 'CheXpert', 'chexpert_binaryPNA_test_df_labels.csv')
 
 def accuracy_score(y_true, y_pred):
     assert len(y_true) == len(y_pred)
@@ -48,8 +48,9 @@ def accuracy_and_F1(test_df, pred_df, bootstrap):
         all_f1s.append(ori_f1)
         all_f1_std_devs.append(f1_std_dev)
     
-    print(f"Averaged Accuracy: {np.mean(all_ori_accs):.2f} +- {np.mean(all_std_devs):.2f}")
-    print(f"Macro Averaged F1: {np.mean(all_f1s):.2f} +- {np.mean(all_f1_std_devs):.2f}")
+    return all_ori_accs, all_std_devs, all_f1s, all_f1_std_devs
+    # print(f"Averaged Accuracy: {np.mean(all_ori_accs):.2f} +- {np.mean(all_std_devs):.2f}")
+    # print(f"Macro Averaged F1: {np.mean(all_f1s):.2f} +- {np.mean(all_f1_std_devs):.2f}")
 
 def convert_pkl(raw_pickle, sanity_df, answer_prefix="Answer Choice "):
     """
@@ -86,7 +87,7 @@ def convert_pkl(raw_pickle, sanity_df, answer_prefix="Answer Choice "):
 
 
 def cal_metrics(
-    EXP_NAME, test_df, classes, class_desp, show_error=True, bootstrap=1000
+    EXP_NAME, test_df, classes, class_desp, RESULTS_PATH, results_df, new_row, show_error=True, bootstrap=1000
 ):
     """
     Calculate accuracy from model responses
@@ -98,6 +99,7 @@ def cal_metrics(
     show_error [bool]: whether parsing errors will be printed
     bootstrap [int]: number of replicates for bootstrapping standard deviation
     """
+
     # Create a new DataFrame with only empty'response' and 'parsed_answer' columns
     sanity_df = pd.DataFrame(index=test_df.index, columns=['raw_response', 'parsed_answer'])
 
@@ -130,22 +132,28 @@ def cal_metrics(
     pred_df.to_csv(f'{EXP_NAME}_prediction.csv')
 
     print("Accuracy And F1 For Total Dataset:")
-    accuracy_and_F1(test_df, pred_df, bootstrap)
+    all_ori_accs, all_std_devs, all_f1s, all_f1_std_devs = accuracy_and_F1(test_df, pred_df, bootstrap)
     print("----------\n")
 
+    # for binary must be one class
+    assert(len(all_ori_accs) == 1 and len(all_std_devs) == 1 and len(all_f1s) == 1 and len(all_f1_std_devs) == 1)
+    new_row['accuracy'] = all_ori_accs[0]
+    new_row['acc_error'] = all_std_devs[0]
+    new_row['f1'] = all_f1s[0]
+    new_row['f1_error'] = all_f1_std_devs[0]
 
     # results by demographic
-    white_labels = ['White','White, non-Hispanic','White or Caucasian']
-    black_labels = ['Black or African American','Black, non-Hispanic']
+    # white_labels = ['White','White, non-Hispanic','White or Caucasian']
+    # black_labels = ['Black or African American','Black, non-Hispanic']
     df = pd.read_csv(PATH_TO_OG_CHEXPERT_CSV)
 
     black_rows = []
     white_rows = []
     for i in test_df.itertuples():
         row = df[df['updated_path'].str.endswith(i.Index)]
-        if row['race'].values[0] in black_labels:
+        if row['binary_race'].values[0] == 'Black':
             black_rows.append(i.Index)
-        elif row['race'].values[0] in white_labels:
+        elif row['binary_race'].values[0] == 'White':
             white_rows.append(i.Index)
 
     # print(len(black_rows))
@@ -165,12 +173,30 @@ def cal_metrics(
 
     if black_rows:
         print("Accuracy And F1 For Given Black Race Condition:")
-        accuracy_and_F1(black_test, black_pred, bootstrap)
+        all_ori_accs, all_std_devs, all_f1s, all_f1_std_devs = accuracy_and_F1(black_test, black_pred, bootstrap)
         print("----------\n")
+        
+        # for binary must be one class
+        assert(len(all_ori_accs) == 1 and len(all_std_devs) == 1 and len(all_f1s) == 1 and len(all_f1_std_devs) == 1)
+        new_row['black_accuracy'] = all_ori_accs[0]
+        new_row['black_acc_error'] = all_std_devs[0]
+        new_row['black_f1'] = all_f1s[0]
+        new_row['black_f1_error'] = all_f1_std_devs[0]
+
     if white_rows:    
         print("Accuracy And F1 For Given White Race Condition:")
-        accuracy_and_F1(white_test, white_pred, bootstrap)
+        all_ori_accs, all_std_devs, all_f1s, all_f1_std_devs = accuracy_and_F1(white_test, white_pred, bootstrap)
         print("----------\n")
+        
+        # for binary must be one class
+        assert(len(all_ori_accs) == 1 and len(all_std_devs) == 1 and len(all_f1s) == 1 and len(all_f1_std_devs) == 1)
+        new_row['white_accuracy'] = all_ori_accs[0]
+        new_row['white_acc_error'] = all_std_devs[0]
+        new_row['white_f1'] = all_f1s[0]
+        new_row['white_f1_error'] = all_f1_std_devs[0]
+
+    results_df = results_df._append(new_row, ignore_index=True)
+    results_df.to_csv(RESULTS_PATH, index=False)
 
 
 if __name__ == "__main__":
@@ -211,6 +237,13 @@ if __name__ == "__main__":
         default=1,
         help="The number of questions asked each time",
     )
+    parser.add_argument(
+        "--black_race_split",
+        type=float,
+        required=False,
+        default=0.5,
+        help="What ratio of demo example are 'black'. Default to 0.5. 1 correlates with 100 percent black demo examples",
+    )
 
     # Parsing the arguments
     args = parser.parse_args()
@@ -221,6 +254,7 @@ if __name__ == "__main__":
     location = args.location
     num_shot_per_class = args.num_shot_per_class
     num_qns_per_round = args.num_qns_per_round
+    black_race_split = args.black_race_split
     
     # dataset_name = "CheXpert"
     # model = "gpt-4o"
@@ -236,5 +270,21 @@ if __name__ == "__main__":
     class_desp = classes  # The actual list of options given to the model. If the column names are informative enough, we can just use them.
     class_to_idx = {class_name: idx for idx, class_name in enumerate(classes)}
 
-    EXP_NAME = f"{dataset_name}_{num_shot_per_class*len(classes)}shot_{model}_{num_qns_per_round}"
-    cal_metrics(EXP_NAME, test_df, classes, class_desp)
+    EXP_NAME = f"{dataset_name}_{num_shot_per_class*len(classes)}shot_{model}_{num_qns_per_round}_{black_race_split:.2f}split"
+
+    RESULTS_PATH = os.path.join(os.getcwd(), f"{dataset_name}_{model}_{num_qns_per_round}_results")
+    results_df = pd.read_csv(RESULTS_PATH)
+    columns = [
+        'num_shots_per_class', 'black_race_split', 'accuracy', 'acc_error', 
+        'f1', 'f1_error', 'black_accuracy', 'black_acc_error', 
+        'black_f1', 'black_f1_error', 'white_accuracy', 'white_acc_error', 
+        'white_f1', 'white_f1_error'
+    ]
+
+    # Create the dictionary with keys from columns and values set to 0
+    new_row = {column: -1 for column in columns}
+    new_row['num_shots_per_class'] = num_shot_per_class
+    new_row['black_race_split'] = black_race_split
+
+
+    cal_metrics(EXP_NAME, test_df, classes, class_desp, RESULTS_PATH, results_df, new_row)

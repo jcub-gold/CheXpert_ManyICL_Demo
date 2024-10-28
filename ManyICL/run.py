@@ -40,6 +40,13 @@ if __name__ == "__main__":
         default=1,
         help="The number of questions asked each time",
     )
+    parser.add_argument(
+        "--black_race_split",
+        type=float,
+        required=False,
+        default=0.5,
+        help="What ratio of demo example are 'black'. Default to 0.5. 1 correlates with 100 percent black demo examples",
+    )
 
     # Parsing the arguments
     args = parser.parse_args()
@@ -50,6 +57,7 @@ if __name__ == "__main__":
     location = args.location
     num_shot_per_class = args.num_shot_per_class
     num_qns_per_round = args.num_qns_per_round
+    black_race_split = args.black_race_split
 
     # dataset_name = "CheXpert"
     # model = "gpt-4o"
@@ -79,4 +87,5 @@ if __name__ == "__main__":
         class_desp,
         IMAGE_FOLDER,
         dataset_name,
+        black_race_split,
     )

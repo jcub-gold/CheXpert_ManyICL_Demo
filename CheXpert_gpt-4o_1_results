@@ -1,0 +1,2 @@
+num_shots_per_class,black_race_split,accuracy,acc_error,f1,f1_error,black_accuracy,black_acc_error,black_f1,black_f1_error,white_accuracy,white_acc_error,white_f1,white_f1_error
+0.0,0.5,65.0,10.785898200891754,0.7878787878787878,0.08244528328940742,65.0,11.162432530591168,0.7878787878787878,0.08192142925957582,-1.0,-1.0,-1.0,-1.0

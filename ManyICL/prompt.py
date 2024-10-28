@@ -5,7 +5,9 @@ import random
 import pickle
 import numpy as np
 from LMM import GPT4VAPI, GeminiAPI
+import pandas as pd
 
+PATH_TO_OG_CHEXPERT_CSV = os.path.join(os.getcwd(), 'ManyICL', 'dataset', 'CheXpert', 'chexpert_binaryPNA_demo_df_labels.csv')
 
 def work(
     model,
@@ -18,6 +20,7 @@ def work(
     class_desp,
     SAVE_FOLDER,
     dataset_name,
+    black_race_split,
     detail="auto",
     file_suffix="",
 ):
@@ -38,7 +41,7 @@ def work(
     """
 
     class_to_idx = {class_name: idx for idx, class_name in enumerate(classes)}
-    EXP_NAME = f"{dataset_name}_{num_shot_per_class*len(classes)}shot_{model}_{num_qns_per_round}"
+    EXP_NAME = f"{dataset_name}_{num_shot_per_class*len(classes)}shot_{model}_{num_qns_per_round}_{black_race_split:.2f}split"
 
     if model.startswith("gpt"):
         api = GPT4VAPI(model=model, detail=detail)
@@ -49,12 +52,28 @@ def work(
 
     # Prepare the demonstrating examples
     # Relies on same number of demo examples per class -- need to change for many shot experiment
+    num_black_shots_per_class = int(num_shot_per_class * black_race_split)
+    num_white_shots_per_class = num_shot_per_class - num_black_shots_per_class
+    df = pd.read_csv(PATH_TO_OG_CHEXPERT_CSV)
+    assert num_shot_per_class <= df.shape[0], f"Custom error message: More shots than demo examples available. {num_shot_per_class} requested and {df.shape[0]} available."
+    assert num_black_shots_per_class <= df[df['binary_race'] == 'Black'].shape[0], f"Custom error message: More black shots than demo examples available. {num_black_shots_per_class} requested and {df[df['binary_race'] == 'Black'].shape[0]} available."
+    assert num_black_shots_per_class <= df[df['binary_race'] == 'White'].shape[0], f"Custom error message: More white shots than demo examples available. {num_white_shots_per_class} requested and {df[df['binary_race'] == 'White'].shape[0]} available."
+
     demo_examples = []
     for class_name in classes:
         num_cases_class = 0
+        num_cases_black = 0
+        num_cases_white = 0
         for j in demo_df[demo_df[class_name] == 1].itertuples():
+            row = df[df['updated_path'].str.endswith(j.Index)]
             if num_cases_class == num_shot_per_class:
                 break
+            if row['binary_race'].values[0] == 'Black':
+                if num_cases_black == num_black_shots_per_class:
+                    continue
+            elif row['binary_race'].values[0] == 'White':
+                if num_cases_white == num_white_shots_per_class:
+                    continue
             demo_examples.append((j.Index, class_desp[class_to_idx[class_name]]))
             num_cases_class += 1
     assert len(demo_examples) == num_shot_per_class * len(classes)
@@ -71,7 +90,7 @@ def work(
         end_idx = min(len(test_df), start_idx + num_qns_per_round)
 
         random.shuffle(demo_examples)
-        prompt = ""
+        prompt = f"Below are {len(demo_examples)} demonstrating examples:\n\n"
         image_paths = [os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_binary_PNA_demo_df',i[0]+file_suffix) for i in demo_examples]
         for demo in demo_examples:
             prompt += f"""<<IMG>>Given the image above, answer the following question using the specified format.
@@ -80,6 +99,7 @@ Choices: {str(class_desp)}
 Answer Choice: {demo[1]}
 """
         qns_idx = []
+        prompt += "\n\n\Below is the actual question:\n"
         for idx, i in enumerate(test_df.iloc[start_idx:end_idx].itertuples()):
             qns_idx.append(i.Index)
             image_paths.append(os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_binary_PNA_test_df',i.Index+file_suffix))
@@ -103,6 +123,7 @@ Confidence Score {qn_idx}: [Your Numerical Prediction Confidence Score Here From
 
 Do not deviate from the above format. Repeat the format template for the answer."""
             
+        print(prompt)
         qns_id = str(qns_idx)
         for retry in range(3):
             if (
@@ -143,3 +164,9 @@ Do not deviate from the above format. Repeat the format template for the answer.
     results["token_usage"] = total_usage
     with open(f"{EXP_NAME}.pkl", "wb") as f:
         pickle.dump(results, f)
+
+    results_csv_path = os.path.join(os.getcwd(), f"{dataset_name}_{model}_{num_qns_per_round}_results")
+    if not os.path.isfile(results_csv_path):
+        columns = ['num_shots_per_class', 'black_race_split', 'accuracy', 'acc_error', 'f1', 'f1_error', 'black_accuracy', 'black_acc_error', 'black_f1', 'black_f1_error', 'white_accuracy', 'white_acc_error', 'white_f1', 'white_f1_error']
+        df = pd.DataFrame(columns=columns)
+        df.to_csv(results_csv_path, index=False)

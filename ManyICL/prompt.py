@@ -72,21 +72,21 @@ def work(
 
         random.shuffle(demo_examples)
         prompt = ""
-        image_paths = [os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_demo_df',i[0]+file_suffix) for i in demo_examples]
+        image_paths = [os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_binary_PNA_demo_df',i[0]+file_suffix) for i in demo_examples]
         for demo in demo_examples:
             prompt += f"""<<IMG>>Given the image above, answer the following question using the specified format.
-Question: What is in the image above? Note that this is a multi-label classification problem, so the correct answer may range from zero to fourteen options.
+Question: What is in the image above? Note that this is a binary classification problem, so there will only be one choice.
 Choices: {str(class_desp)}
 Answer Choice: {demo[1]}
 """
         qns_idx = []
         for idx, i in enumerate(test_df.iloc[start_idx:end_idx].itertuples()):
             qns_idx.append(i.Index)
-            image_paths.append(os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_test_df',i.Index+file_suffix))
+            image_paths.append(os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_binary_PNA_test_df',i.Index+file_suffix))
             qn_idx = idx+1
            
             prompt += f"""<<IMG>>Given the image above, answer the following question using the specified format.
-Question {qn_idx}: What is in the image above? Note that this is a multi-label classification problem, so the correct answer may range from 0 to fourteen options.
+Question {qn_idx}: What is in the image above? Note that this is a binary classification problem, so there will only be one choice.
 Choices {qn_idx}: {str(class_desp)}
 
 
@@ -96,7 +96,7 @@ Choices {qn_idx}: {str(class_desp)}
             prompt += f"""
 Please respond with the following format for each question:
 ---BEGIN FORMAT TEMPLATE FOR QUESTION {qn_idx}---
-Answer Choice {qn_idx}: [Your Answer Choice Here for Question {qn_idx}. Put all answer choices in one list. If none of the choices is present in the image, put an empty list]
+Answer Choice {qn_idx}: [Your Answer Choice Here for Question {qn_idx}. If the choice is not present in the image, put an empty list]
 Confidence Score {qn_idx}: [Your Numerical Prediction Confidence Score Here From 0 To 1 for Question {qn_idx}]
 ---END FORMAT TEMPLATE FOR QUESTION {qn_idx}---
 

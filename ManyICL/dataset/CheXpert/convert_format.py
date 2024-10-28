@@ -5,7 +5,7 @@ print(os.getcwd())
 dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load the CSV into a DataFrame
-df = pd.read_csv(os.path.join(dir, 'chexpert_test_df_labels.csv'))
+df = pd.read_csv(os.path.join(dir, 'chexpert_binaryPNA_test_df_labels.csv'))
 
 # Update the image path to use 'updated_path'
 df['Path'] = df['updated_path']
@@ -15,7 +15,7 @@ prefix = '/home/joseph/datasets/chexpertchestxrays-u20210408/'
 df['Path'] = df['Path'].str.replace(prefix, '', regex=False)
 
 # Replace blank labels with 0
-labels = ['No Finding', 'Enlarged Cardiomediastinum', 'Cardiomegaly', 'Lung Opacity', 'Lung Lesion', 'Edema', 'Consolidation', 'Pneumonia', 'Atelectasis', 'Pneumothorax', 'Pleural Effusion', 'Pleural Other', 'Fracture', 'Support Devices']
+labels = ['Pneumonia']
 for label in labels:
     df[label] = df[label].apply(lambda x: 0 if x != 1 else x)
 

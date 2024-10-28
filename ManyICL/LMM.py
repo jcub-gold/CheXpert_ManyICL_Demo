@@ -28,7 +28,7 @@ import vertexai.preview.generative_models as generative_models
 class GPT4VAPI:
     def __init__(
         self,
-        model="gpt-4o-2024-09-4",
+        model="gpt-4o-2024-05-13",
         img_token="<<IMG>>",
         seed=66,
         temperature=0,

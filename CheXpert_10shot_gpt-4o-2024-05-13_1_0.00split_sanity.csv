@@ -1,0 +1,1201 @@
+,raw_response,parsed_answer
+CheXpert-v1.0 batch 4 (train 3)/patient50694/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10775/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient22504/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: ['Pneumonia']
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",['Pneumonia']
+CheXpert-v1.0 batch 2 (train 1)/patient13994/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28702/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35348/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10682/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient04721/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28612/study3/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient27777/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31176/study6/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20231/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17985/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10165/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07898/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient03922/study11/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28101/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient12436/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient06061/study6/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient41581/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient23034/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11325/study12/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37256/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07288/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient12436/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15246/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient36526/study6/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05388/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient04721/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35348/study6/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07288/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient04761/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient04328/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35348/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28702/study9/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient46069/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient33909/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37677/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11792/study12/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31176/study7/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15558/study16/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient30090/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01141/study16/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient23964/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient56739/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient38264/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient51340/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient21379/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient06359/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient48271/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient53825/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient26572/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15614/study6/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: []
+Confidence Score 1: 0
+---END FORMAT TEMPLATE FOR QUESTION 1---",[]
+CheXpert-v1.0 batch 2 (train 1)/patient09413/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient33207/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05843/study18/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35348/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient23940/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15607/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient24637/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient03980/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17948/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15943/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient02756/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient06496/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31176/study6/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01816/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07898/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15614/study6/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient30090/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient50694/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient03980/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient26680/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient30110/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient00750/study24/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient41545/study15/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient41131/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10372/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient50298/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient08838/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient00190/study1/view2_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient60389/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient00210/study12/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient48150/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient13861/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient40065/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient06689/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient21260/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient44754/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37549/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient19508/study2/view2_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient04473/study7/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient46780/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient42522/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient32326/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient38617/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20200/study15/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient13140/study12/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient03901/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient57391/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient13530/study50/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1.0
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient42829/study7/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient09279/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10049/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31533/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient22257/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07288/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient12203/study12/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient47887/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient42595/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient23729/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37879/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient50825/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient29936/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05843/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: []
+Confidence Score 1: 0
+---END FORMAT TEMPLATE FOR QUESTION 1---",[]
+CheXpert-v1.0 batch 3 (train 2)/patient36526/study18/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01155/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05025/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient24292/study8/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17985/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient09413/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01696/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient19260/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05570/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient41901/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient36856/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient32040/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11573/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient44754/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient32335/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31712/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient00750/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient64211/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35806/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10775/study7/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37879/study11/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20688/study3/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31839/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11302/study13/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient00750/study26/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01084/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient04473/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient41325/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient13530/study55/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28806/study11/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28273/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient40161/study27/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10057/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05741/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28849/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20538/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient42297/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient29548/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient18170/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient45219/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient30812/study34/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient58719/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient40837/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37760/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07740/study7/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient13318/study18/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient58868/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31380/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient60851/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20936/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient13210/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient14328/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15957/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient32155/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17536/study5/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient16887/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20592/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient33968/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient48650/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient18232/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient44657/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient14392/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11977/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient27073/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient02673/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient23882/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient06011/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31269/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10373/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient46656/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient53324/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient22124/study6/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07820/study1/view3_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01202/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient39246/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient08146/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient27911/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17369/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01202/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient09724/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient49364/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient16274/study11/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient14770/study1/view2_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07248/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient09767/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient08276/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35449/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient16953/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient28191/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient34426/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient14148/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10118/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient12390/study7/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient02471/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17757/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35055/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05662/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient27882/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient00910/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07061/study23/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01369/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31921/study8/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05385/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient12390/study6/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1.0
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient62632/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient31093/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: []
+Confidence Score 1: 0
+---END FORMAT TEMPLATE FOR QUESTION 1---",[]
+CheXpert-v1.0 batch 3 (train 2)/patient36352/study29/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient48552/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35737/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient08330/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient36030/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11976/study13/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient24963/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient02592/study3/view3_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20799/study8/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient22386/study2/view3_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17681/study14/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35099/study44/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient57224/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient23818/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient03738/study10/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient18989/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient36214/study6/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient60792/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient34964/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient29146/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37482/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient27543/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient37086/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15877/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient26044/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient43133/study9/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient03092/study3/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient34010/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient57536/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient15136/study4/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient20448/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35307/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11174/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient29569/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient39131/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient10949/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient05223/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient43088/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient18626/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient43731/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient46724/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient41741/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient17214/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient38123/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient36089/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient24428/study15/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient36821/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient26085/study1/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient22289/study25/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35479/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient11658/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient34010/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient34037/study10/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient35335/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient36795/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient13391/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient34091/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient14296/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient49650/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 1
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient25658/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient39978/study3/view2_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient38007/study4/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.9
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient41704/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient58494/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient25841/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient29376/study2/view2_lateral.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient14025/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient47198/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient27233/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient01071/study15/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient46046/study7/view2_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient02714/study3/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient43999/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient32148/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient09672/study2/view2_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient32337/study9/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 3 (train 2)/patient38504/study2/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 2 (train 1)/patient07045/study5/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia
+CheXpert-v1.0 batch 4 (train 3)/patient60121/study1/view1_frontal.jpg,"---BEGIN FORMAT TEMPLATE FOR QUESTION 1---
+Answer Choice 1: Pneumonia
+Confidence Score 1: 0.95
+---END FORMAT TEMPLATE FOR QUESTION 1---",Pneumonia

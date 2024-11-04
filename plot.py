@@ -62,81 +62,50 @@ if __name__ == "__main__":
 
     df = results_df = pd.read_csv(results_csv_path)
     zero_shot = df[df['num_shots_per_class'] == 0]
-
-    # Filter data for each black_race_split value, excluding the zero-shot row to avoid duplication
     df_0 = pd.concat([zero_shot, df[(df['black_race_split'] == 0) & (df['num_shots_per_class'] > 0)]]).sort_values('num_shots_per_class')
     df_1 = pd.concat([zero_shot, df[(df['black_race_split'] == 1) & (df['num_shots_per_class'] > 0)]]).sort_values('num_shots_per_class')
     df_05 = pd.concat([zero_shot, df[(df['black_race_split'] == 0.5) & (df['num_shots_per_class'] > 0)]]).sort_values('num_shots_per_class')
-
-    # Create subplots
     fig, axes = plt.subplots(ncols=3, figsize=(18, 6), sharey=True)
-
-    # Plot each graph with error bars
     axes[0].errorbar(df_0['num_shots_per_class'], df_0['accuracy'], yerr=df_0['acc_error'], color='blue', capsize=3)
     axes[0].set_title('Black Race Split = 0%')
     axes[0].set_xlabel('Num Demo Examples')
     axes[0].set_ylabel('Accuracy')
     axes[0].set_ylim(0, 100)
-
     axes[2].errorbar(df_1['num_shots_per_class'], df_1['accuracy'], yerr=df_1['acc_error'], color='green', capsize=3)
     axes[2].set_title('Black Race Split = 100%')
     axes[2].set_xlabel('Num Demo Examples')
     axes[2].set_ylim(0, 100)
-
     axes[1].errorbar(df_05['num_shots_per_class'], df_05['accuracy'], yerr=df_05['acc_error'], color='red', capsize=3)
     axes[1].set_title('Black Race Split = 50%')
     axes[1].set_xlabel('Num Demo Examples')
     axes[1].set_ylim(0, 100)
-
-    # Overall title
     fig.suptitle('Accuracy vs. Number of Demo Examples by Black Race Split', y=0.95)
-
-    # Adjust layout
     plt.subplots_adjust(top=0.85)
-    # plt.tight_layout()
     plt.show()
 
 
     
     df['bias'] = df['black_accuracy'] - df['white_accuracy']
-
-    # Separate zero-shot data
     zero_shot = df[df['num_shots_per_class'] == 0]
-
-    # Prepare data for plotting with zero-shot included
     bias_data = {
         '0': pd.concat([zero_shot[['num_shots_per_class', 'bias']], df[df['black_race_split'] == 0][df['num_shots_per_class'] > 0][['num_shots_per_class', 'bias']]]).set_index('num_shots_per_class')['bias'],
         '0.5': pd.concat([zero_shot[['num_shots_per_class', 'bias']], df[df['black_race_split'] == 0.5][df['num_shots_per_class'] > 0][['num_shots_per_class', 'bias']]]).set_index('num_shots_per_class')['bias'],
         '1': pd.concat([zero_shot[['num_shots_per_class', 'bias']], df[df['black_race_split'] == 1][df['num_shots_per_class'] > 0][['num_shots_per_class', 'bias']]]).set_index('num_shots_per_class')['bias']
     }
-
-    # Convert the dictionary into a DataFrame for ease of plotting
     bias_df = pd.DataFrame(bias_data)
-
-    # Sort the DataFrame by index (num_shots_per_class)
     bias_df = bias_df.sort_index()
-
-    # Plotting
     fig, ax = plt.subplots(figsize=(10, 6))
-
-    # Define bar width and positions
     bar_width = 0.25
     x = np.arange(len(bias_df))
-
-    # Plot each black_race_split as a separate set of bars
     ax.bar(x - bar_width, bias_df['0'], width=bar_width, label='Black Race Split = 0', color='blue')
     ax.bar(x, bias_df['0.5'], width=bar_width, label='Black Race Split = 0.5', color='red')
     ax.bar(x + bar_width, bias_df['1'], width=bar_width, label='Black Race Split = 1', color='green')
-
-    # Labeling
     ax.set_xlabel('Num Shots per Class')
     ax.set_ylabel('Bias (Black Accuracy - White Accuracy)')
     ax.set_title('Bias by Num Shots per Class and Black Race Split')
     ax.set_xticks(x)
     ax.set_xticklabels(bias_df.index)
-    ax.axhline(0, color='gray', linestyle='--', linewidth=0.8)  # Reference line at 0
+    ax.axhline(0, color='gray', linestyle='--', linewidth=0.8)
     ax.legend()
-
-    # Show plot
     plt.tight_layout()
     plt.show()

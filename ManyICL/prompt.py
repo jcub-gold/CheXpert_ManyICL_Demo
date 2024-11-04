@@ -71,12 +71,16 @@ def work(
             if row['binary_race'].values[0] == 'Black':
                 if num_cases_black == num_black_shots_per_class:
                     continue
+                num_cases_black += 1
             elif row['binary_race'].values[0] == 'White':
                 if num_cases_white == num_white_shots_per_class:
                     continue
+                num_cases_white += 1
             demo_examples.append((j.Index, class_desp[class_to_idx[class_name]]))
             num_cases_class += 1
     assert len(demo_examples) == num_shot_per_class * len(classes)
+    assert(num_cases_black == num_black_shots_per_class)
+    assert(num_cases_white == num_white_shots_per_class)
 
     # Load existing results
     if os.path.isfile(f"{EXP_NAME}.pkl"):
@@ -90,7 +94,10 @@ def work(
         end_idx = min(len(test_df), start_idx + num_qns_per_round)
 
         random.shuffle(demo_examples)
-        prompt = f"Below are {len(demo_examples)} demonstrating examples:\n\n"
+        if len(demo_examples) > 0:
+            prompt = f"Below are {len(demo_examples)} demonstrating examples:\n\n"
+        else:
+            prompt = ""
         image_paths = [os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_binary_PNA_demo_df',i[0]+file_suffix) for i in demo_examples]
         for demo in demo_examples:
             prompt += f"""<<IMG>>Given the image above, answer the following question using the specified format.
@@ -99,7 +106,7 @@ Choices: {str(class_desp)}
 Answer Choice: {demo[1]}
 """
         qns_idx = []
-        prompt += "\n\n\Below is the actual question:\n"
+        prompt += "\n\n\nBelow is the actual question:\n"
         for idx, i in enumerate(test_df.iloc[start_idx:end_idx].itertuples()):
             qns_idx.append(i.Index)
             image_paths.append(os.path.join(os.getcwd(), SAVE_FOLDER, 'chexpert_binary_PNA_test_df',i.Index+file_suffix))
@@ -123,7 +130,7 @@ Confidence Score {qn_idx}: [Your Numerical Prediction Confidence Score Here From
 
 Do not deviate from the above format. Repeat the format template for the answer."""
             
-        print(prompt)
+        # print(prompt)
         qns_id = str(qns_idx)
         for retry in range(3):
             if (
@@ -165,7 +172,7 @@ Do not deviate from the above format. Repeat the format template for the answer.
     with open(f"{EXP_NAME}.pkl", "wb") as f:
         pickle.dump(results, f)
 
-    results_csv_path = os.path.join(os.getcwd(), f"{dataset_name}_{model}_{num_qns_per_round}_results")
+    results_csv_path = os.path.join(os.getcwd(), f"{dataset_name}_{model}_{num_qns_per_round}_results.csv")
     if not os.path.isfile(results_csv_path):
         columns = ['num_shots_per_class', 'black_race_split', 'accuracy', 'acc_error', 'f1', 'f1_error', 'black_accuracy', 'black_acc_error', 'black_f1', 'black_f1_error', 'white_accuracy', 'white_acc_error', 'white_f1', 'white_f1_error']
         df = pd.DataFrame(columns=columns)

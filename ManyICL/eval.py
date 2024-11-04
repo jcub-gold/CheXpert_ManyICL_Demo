@@ -137,10 +137,10 @@ def cal_metrics(
 
     # for binary must be one class
     assert(len(all_ori_accs) == 1 and len(all_std_devs) == 1 and len(all_f1s) == 1 and len(all_f1_std_devs) == 1)
-    new_row['accuracy'] = all_ori_accs[0]
-    new_row['acc_error'] = all_std_devs[0]
-    new_row['f1'] = all_f1s[0]
-    new_row['f1_error'] = all_f1_std_devs[0]
+    new_row['accuracy'] = round(all_ori_accs[0], 3)
+    new_row['acc_error'] = round(all_std_devs[0], 3)
+    new_row['f1'] = round(all_f1s[0], 3)
+    new_row['f1_error'] = round(all_f1_std_devs[0], 3)
 
     # results by demographic
     # white_labels = ['White','White, non-Hispanic','White or Caucasian']
@@ -178,10 +178,10 @@ def cal_metrics(
         
         # for binary must be one class
         assert(len(all_ori_accs) == 1 and len(all_std_devs) == 1 and len(all_f1s) == 1 and len(all_f1_std_devs) == 1)
-        new_row['black_accuracy'] = all_ori_accs[0]
-        new_row['black_acc_error'] = all_std_devs[0]
-        new_row['black_f1'] = all_f1s[0]
-        new_row['black_f1_error'] = all_f1_std_devs[0]
+        new_row['black_accuracy'] = round(all_ori_accs[0], 3)
+        new_row['black_acc_error'] = round(all_std_devs[0], 3)
+        new_row['black_f1'] = round(all_f1s[0], 3)
+        new_row['black_f1_error'] = round(all_f1_std_devs[0], 3)
 
     if white_rows:    
         print("Accuracy And F1 For Given White Race Condition:")
@@ -190,10 +190,10 @@ def cal_metrics(
         
         # for binary must be one class
         assert(len(all_ori_accs) == 1 and len(all_std_devs) == 1 and len(all_f1s) == 1 and len(all_f1_std_devs) == 1)
-        new_row['white_accuracy'] = all_ori_accs[0]
-        new_row['white_acc_error'] = all_std_devs[0]
-        new_row['white_f1'] = all_f1s[0]
-        new_row['white_f1_error'] = all_f1_std_devs[0]
+        new_row['white_accuracy'] = round(all_ori_accs[0], 3)
+        new_row['white_acc_error'] = round(all_std_devs[0], 3)
+        new_row['white_f1'] = round(all_f1s[0], 3)
+        new_row['white_f1_error'] = round(all_f1_std_devs[0], 3)
 
     results_df = results_df._append(new_row, ignore_index=True)
     results_df.to_csv(RESULTS_PATH, index=False)
@@ -272,7 +272,7 @@ if __name__ == "__main__":
 
     EXP_NAME = f"{dataset_name}_{num_shot_per_class*len(classes)}shot_{model}_{num_qns_per_round}_{black_race_split:.2f}split"
 
-    RESULTS_PATH = os.path.join(os.getcwd(), f"{dataset_name}_{model}_{num_qns_per_round}_results")
+    RESULTS_PATH = os.path.join(os.getcwd(), f"{dataset_name}_{model}_{num_qns_per_round}_results.csv")
     results_df = pd.read_csv(RESULTS_PATH)
     columns = [
         'num_shots_per_class', 'black_race_split', 'accuracy', 'acc_error', 
